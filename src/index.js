@@ -4,7 +4,7 @@ import React from 'react';
 
 
 ReactDOM.render (
-    <App text = 'hey there' />,
+    <App text='hey there' />,
     document.getElementById('root')
 );
 

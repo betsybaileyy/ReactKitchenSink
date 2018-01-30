@@ -10,7 +10,6 @@ class App extends Component {
         super(props);
 
         this.state = {
-            text: 'hey there!',
             placeHolder: 'type something there',
             input: '',
             hasLoaded: false,
@@ -33,7 +32,7 @@ class App extends Component {
         if (!this.state.hasLoaded) {
             return (
                 <React.Fragment>
-                    {this.state.text}
+                    {this.props.text}
                     {this.state.input}
                     {this.state.hasLoaded}
 
